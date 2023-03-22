@@ -96,4 +96,4 @@ HOCR xml string."
     (tessbaseapigethocrtext api page))) ; no need to mask float traps after process-pages
 
 
-(cl-tesseract:image-to-text #P"~/Downloads/eurotext.png" :lang "rus+eng")
+;; (cl-tesseract:image-to-text #P"~/Downloads/eurotext.png" :lang "rus+eng")
